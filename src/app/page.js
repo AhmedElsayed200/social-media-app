@@ -1,3 +1,7 @@
-export default function Home() {
-  return <div>Hi</div>;
-}
+import PostsPage from "./pages/PostsPage";
+import FavPosts from "./pages/FavPostsPage";
+const Home = () => {
+  return <PostsPage />;
+};
+
+export default Home;
