@@ -33,152 +33,152 @@ const fakePosts = [
   {
     id: 1,
     userName: "ahmed sayed",
-    title: "this is title 1",
     likes: 21,
     profileImage: profile1,
     postImage: postImage1,
     postContent:
       "this is a dummy post content related to post number 1. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 2,
     userName: "mohamed abdelwahab",
-    title: "this is title 2",
     likes: 22,
     profileImage: profile2,
     postImage: postImage2,
     postContent:
       "this is a dummy post content related to post number 2. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 3,
     userName: "elsayed mohamed",
-    title: "this is title 3",
     likes: 23,
     profileImage: profile3,
     postImage: postImage3,
     postContent:
       "this is a dummy post content related to post number 3. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 4,
     userName: "ayman barakat",
-    title: "this is title 4",
     likes: 24,
     profileImage: profile4,
     postImage: postImage4,
     postContent:
       "this is a dummy post content related to post number 4. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 5,
     userName: "taha hussien",
-    title: "this is title 5",
     likes: 25,
     profileImage: profile5,
     postImage: postImage5,
     postContent:
       "this is a dummy post content related to post number 5. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 6,
     userName: "salah salem",
-    title: "this is title 6",
     likes: 26,
     profileImage: profile6,
     postImage: postImage6,
     postContent:
       "this is a dummy post content related to post number 6. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 7,
     userName: "big ramy",
-    title: "this is title 7",
     likes: 27,
     profileImage: profile7,
     postImage: postImage7,
     postContent:
       "this is a dummy post content related to post number 7. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 8,
     userName: "nadeen",
-    title: "this is title 8",
     likes: 28,
     profileImage: profile8,
     postImage: postImage8,
     postContent:
       "this is a dummy post content related to post number 8. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 9,
     userName: "walaa mohsen",
-    title: "this is title 9",
     likes: 29,
     profileImage: profile9,
     postImage: postImage9,
     postContent:
       "this is a dummy post content related to post number 9. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 10,
     userName: "sohila ahmed",
-    title: "this is title 10",
     likes: 210,
     profileImage: profile10,
     postImage: postImage10,
     postContent:
       "this is a dummy post content related to post number 10. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 11,
     userName: "sara ahmed",
-    title: "this is title 11",
     likes: 211,
     profileImage: profile11,
     postImage: postImage11,
     postContent:
       "this is a dummy post content related to post number 11. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 12,
     userName: "nabil awad",
-    title: "this is title 12",
     likes: 212,
     profileImage: profile12,
     postImage: postImage12,
     postContent:
       "this is a dummy post content related to post number 12. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 13,
     userName: "fekry twadros",
-    title: "this is title 13",
     likes: 213,
     profileImage: profile13,
     postImage: postImage13,
     postContent:
       "this is a dummy post content related to post number 13. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 14,
     userName: "youssef sayed",
-    title: "this is title 14",
     likes: 214,
     profileImage: profile14,
     postImage: postImage14,
     postContent:
       "this is a dummy post content related to post number 14. the image that I am posting is amazing",
+    isFav: false,
   },
   {
     id: 15,
     userName: "bahgat",
-    title: "this is title 15",
     likes: 215,
     profileImage: profile15,
     postImage: postImage15,
     postContent:
       "this is a dummy post content related to post number 15. the image that I am posting is amazing",
+    isFav: false,
   },
 ];
 
