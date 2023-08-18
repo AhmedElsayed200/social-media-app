@@ -1,10 +1,11 @@
 import Image from "next/image";
 import fakePosts from "../data/fakeposts";
 import PostCard from "../components/PostCard/main";
+import styles from "../../../public/styles/main.module.scss";
 
 const PostsPage = () => {
   return (
-    <div>
+    <div className={styles["posts-page"]}>
       {fakePosts.map((ele) => (
         <PostCard
           key={ele.id}

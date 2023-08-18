@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styles from "../../../../public/styles/main.module.scss";
 
 const PostCard = ({
   userName,
@@ -8,26 +9,15 @@ const PostCard = ({
   postImg,
   postContent,
 }) => {
-  console.log(profileImg);
   return (
-    <div>
-      <div>
-        <Image
-          src={profileImg}
-          alt={`Profile of ${userName}`}
-          width={120}
-          height={120}
-        />
+    <div className={styles["post-card"]}>
+      <div className={styles["user-info"]}>
+        <Image src={profileImg} alt={`Profile of ${userName}`} />
         <p>{userName}</p>
       </div>
-      <Image
-        src={postImg}
-        alt={`Post of ${postTile}`}
-        width={400}
-        height={400}
-      />
-      <div>{likes} likes</div>
-      <div>{postContent}</div>
+      <Image src={postImg} alt={`Post of ${postTile}`} />
+      <div className={styles["likes"]}>{likes} likes</div>
+      <div className={styles["post-content"]}>{postContent}</div>
     </div>
   );
 };
