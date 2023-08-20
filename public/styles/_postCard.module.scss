@@ -19,8 +19,8 @@
       img {
         border-radius: 50%;
         margin-right: 0.5rem;
-        width: 24px;
-        height: 24px;
+        width: 32px;
+        height: 32px;
       }
   
       p {
@@ -34,7 +34,7 @@
     }
   
     .post-content {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
 
     .heart-button {
@@ -48,8 +48,10 @@
       justify-content: center;
       transition: background-color 0.3s ease;
       position: absolute;
+      // right: 14px;
+      // bottom: 117px;
       right: 15px;
-      bottom: 19%;
+      bottom: 20%;
     
       &:hover {
         background-color: #e0e0e0;

@@ -1,5 +1,4 @@
-import PostsPage from "./pages/PostsPage";
-import FavPosts from "./pages/FavPostsPage";
+import PostsPage from "./posts/page";
 
 const Home = () => {
   return <PostsPage />;
