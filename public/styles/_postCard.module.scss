@@ -5,6 +5,7 @@
     max-width: 300px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
+    background-color: #fff;
   
     img {
       width: 100%;
@@ -48,10 +49,8 @@
       justify-content: center;
       transition: background-color 0.3s ease;
       position: absolute;
-      // right: 14px;
-      // bottom: 117px;
       right: 15px;
-      bottom: 20%;
+      top: 306px;
     
       &:hover {
         background-color: #e0e0e0;
