@@ -13,18 +13,25 @@ const FavPostsPage = () => {
     setPosts(JSON.parse(postsList));
   }, []);
 
+  const favPosts = posts.filter((ele) => ele.isFav);
+
+  if (!favPosts.length)
+    return (
+      <div className={styles["centered-message"]}>
+        <p className={styles["message-text"]}>No favorite posts to show</p>
+      </div>
+    );
+
   return (
     <div className={styles["posts-page"]}>
-      {posts?.map((ele) =>
-        ele.isFav ? (
-          <PostCard
-            key={ele.id}
-            postInfo={ele}
-            posts={posts}
-            setPosts={setPosts}
-          />
-        ) : null
-      )}
+      {favPosts?.map((ele) => (
+        <PostCard
+          key={ele.id}
+          postInfo={ele}
+          posts={posts}
+          setPosts={setPosts}
+        />
+      ))}
     </div>
   );
 };
