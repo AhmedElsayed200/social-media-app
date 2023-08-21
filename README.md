@@ -23,8 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [http://localhost:3000](http://localhost:3000) and [http://localhost:3000/posts](http://localhost:3000/posts) to view all posts.
 - [http://localhost:3000/favorite-posts](http://localhost:3000/favorite-posts) to view only favorite posts.
 
-Alternatively, you can access the deployed version of the app at: [link](mydeployed.com)
-
 ## Documentation Highlights
 - **Technology Stack**: The app is developed using Next.js framework and styled with SASS.
 - **Code Quality**: ESLint and Prettier are set up to maintain consistent code quality and formatting standards.

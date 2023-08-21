@@ -29,6 +29,7 @@ const PostCard = ({ postInfo, posts, setPosts }) => {
           className={styles["heart-icon"]}
           src={isFav ? filledHeart : emptyHeart}
           alt={`heart`}
+          priority
         />
         Like
       </button>
